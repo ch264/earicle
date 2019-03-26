@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<!-- sections for dynamic content. Jinja2 substiutes the blocks with the corresponding values given by the arugements provided in the render_template() call -->
+		<title>Welcome to Microblog</title>
+	</head>
+	<body>
+		<div>
+			Earicle: 
+			<a href="{{ url_for('index') }}">Home</a>	
+			<a href="{{ url_for('login') }}">Login</a>
+
+			<a href="{{ url_for('user', username=current_user.username) }}">Profil</a>
+			<a href="{{ url_for('logout') }}">Logout</a>
+			<a href="{{ url_for('explore') }}">Explore</a>
+
+		</div>
+		<hr>
+		<!-- block control statement that defines the place where the derived templates can insert themselves. Blocks are given a unique name, which derived templates can reference when they provide their content -->
+		{% block content %}
+		{% endblock %}
+	</body>
+</html>

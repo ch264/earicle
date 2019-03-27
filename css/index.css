@@ -26,11 +26,8 @@ nav {
 
 nav li {
   text-align: center;
+  height: 49px;
 
-}
-
-.nav-link {
-  text-align: center;
 }
 
 /* ----------------------------------------
@@ -52,15 +49,30 @@ body {
 .compare-one-container,
 .compare-two-container,
 .signoff-container {
-   
-    background-image: url(../images/sample.jpg);
-    background-size: cover;
-    height: 20em;
+  background-image: url(../images/sample.jpg);
+    /* /* background-size: cover; */
+  /* width: 1440px; */
 }
 
 h1, h2, h3, h4, p {
   text-align: center;
 }
+
+.intro-container,
+.tech-container {
+  height: 871px;
+}
+.use-container,
+.signoff-container {
+  height: 760px;
+}
+
+.compare-one-container,
+.compare-two-container {
+  height: 760px;
+  /* width: 720px */
+}
+
 
 /* ----------------------------------------
 Footer

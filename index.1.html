@@ -14,7 +14,7 @@
 <body>
     <header>
         <nav class='navbar navbar-inverse navbar-fixed-top'>
-            <div class='container-fluid d-flex justify-content-center' id="nav_center">
+            <div class='container-fluid d-flex justify-content-between'>
                 <div class='navbar-header'>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"
                         aria-expanded='false'>
@@ -25,20 +25,22 @@
                     <a class='navbar-brand' href='#'>Earicle</a>
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class='nav navbar-nav navbar-right'>
+                    <ul class='nav navbar-nav'>
                         <li class='nav-item'><a class='nav-link' href='#'>Home</a></li>
                         <li class='nav-item'><a class='nav-link' href='#'>About</a></li>
                         <li class='nav-item'><a class='nav-link' href='#'>Read</a></li>
                     </ul>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                            Subscribe
-                        </button>
+                        Subscribe
+                    </button>
+
+
+                    </main>
                 </div>
             </div>
         </nav>
-        
     </header>
-    <main> 
+    <main>
         <div class='container-fluid no-padding'>
             <div class='row intro-container'>
                 <div class='col-md-12'>
@@ -55,68 +57,56 @@
                 </div>
 
                 <div class='row text-center tech-container'>
-                    <h1>A New Perspective</h1>
-                    <p>Earicle is an externally worn gadget that can be used to convert thoughts to text — either
-                        “perceived” or “produced” speech. It is a non-invasive, wearable earpiece that allows humans to
-                        converse in natural language with other people without any voice —without opening their mouth,
-                        and without externally observable movements — simply by articulating words internally.
-
-                        Earicle allows users to communicate with A.I. as effortlessly as one’s left brain talks to one’s
-                        right brain, so that humans can integrate the power of the Internet into their thinking at every
-                        level.</p>
-                    <h3>Learn more about the evolution of Brain Decoding and Neuroscience.</h3>
-                    <button>ENTER THE LAB</button>
+                    <h1>Text Here</h1>
+                    <p>Paragraph</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Subscribe
+                    </button>
                 </div>
 
                 <div class='row text-center use-container'>
-                    <h1>Easy as 1, 2, 3</h1>
-                    <p>To use, simply charge your device, wait for the small blue light on the outside to turn on, and
-                        place the device into your ears as you would with bluetooth headphones.</p>
-                    <button>SEE HOW</button>
+                    <h1>Text Here</h1>
+                    <p>Paragraph</p>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                        Subscribe
+                    </button>
                 </div>
 
                 <div class='row'>
                     <div class='column col-md-6 compare-one-container'>
-                        <h1>Earicle</h1>
-                        <h2>Coming Fall 2019</h2>
-                        <h3>Hearing thoughts.</h3>
-                        <p>Look your conversation partner in the eye while wearing one Earicle to hear what they are
-                            really thinking.</p>
+                        <h3>Text Here</h3>
+                        <p>Paragraph</p>
                     </div>
                     <div class='column col-md-6 compare-two-container'>
-                        <h1>Earicle-X</h1>
-                        <h2>Coming Winter 2020</h2>
-                        <h3>Hearing it all.</h3>
-                        <p>By wearing two Earicle's, you can predict your conversion partner's thoughts. Earicle-X
-                            extends your ‘hearing range’ 10 seconds into the future or past.</p>
+                        <h3>Text Here</h3>
+                        <p>Paragraph</p>
+
                     </div>
                 </div>
 
                 <div class='row text-center signoff-container'>
-                    <h1>The Future is Now</h1>
-                    <p>Subscribe below to receive information about our upcoming beta launch for Earicle and be one of
-                        the first to own this exclusive product. </p>
+                    <h1>Text Here</h1>
+                    <p>Paragraph</p>
                     <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
                         Subscribe
                     </button>
-                    <h4>*Supplies extremely limited.</h4>
                 </div>
             </div>
         </div>>
 
     </main>
 
-    <!-- <footer id="footer">
+    <footer id="footer">
         <div class="container">
             <div class='row'>
                 <div class='column col-md-12'>
-                    <div class=' footer-block column col-md-12'>
+                    <div class=' footer-block column col-md-8'>
                         <a href='#'>About</a>
                         <a href='#'>Read</a>
                         <a href='#'>Subscribe</a>
                         <a href='#'>Contact Us</a>
                     </div>
-                    <div class="column col-md-12 social-links">
+                    <div class="column col-md-4 social-links">
                         <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-youtube-square" aria-hidden="true"></i></a>
                         <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
@@ -124,9 +114,10 @@
                         <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                     </div>
                 </div>
+
             </div>
         </div>
-    </footer> -->
+    </footer>
 
 
     <div class="modal" tabindex="-1" role="dialog" id="exampleModal">
@@ -168,11 +159,11 @@
                                 </div>
                                 <div class="mc-field-group">
                                     <label for="mce-FNAME">First Name </label>
-                                    <input type="text" value="" name="FNAME" class="required First" id="mce-FNAME" pattern="[A-Za-z]{2,32}" minlength="2" maxlength="15" title="Please Put in a Valid First Name">
+                                    <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
                                 </div>
                                 <div class="mc-field-group">
                                     <label for="mce-LNAME">Last Name </label>
-                                    <input type="text" value="" name="LNAME" class="required" id="mce-LNAME" pattern="[A-Za-z]{2,32}" minlength="2" maxlength="15" title="Please Put in a Valid Last Name">
+                                    <input type="text" value="" name="LNAME" class="" id="mce-LNAME">
                                 </div>
                                 <div class="mc-field-group input-group">
                                     <strong>How did you hear about us? <span class="asterisk">*</span>

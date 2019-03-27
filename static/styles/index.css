@@ -1,12 +1,25 @@
+/* ----------------------------------------
+Navigation Bar
+------------------------------------------- */
 .btn {
     top:5em;
 }
 
+/* ----------------------------------------
+Main
+------------------------------------------- */
 body {
     height: 100%;
     padding-bottom: 80px;
   }
+
+.row {
+    background-image: url(https://media3.giphy.com/media/1AgjJa5aX1vmIvx8Zr/giphy.gif);
+}
   
+/* ----------------------------------------
+Footer
+------------------------------------------- */
   .footer {
     position: absolute;
     bottom: 0;

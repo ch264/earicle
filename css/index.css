@@ -1,8 +1,36 @@
+
+/* ----------------------------------------
+global 
+------------------------------------------- */
+* {
+  box-sizing: border-box;
+  font-family: 'Avenir';
+}
+@font-face {
+  font-family: 'Avenir LT Std 65 Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Avenir LT Std 65 Medium'), url('AvenirLTStd-Medium.woff') format('woff');
+  }
+
 /* ----------------------------------------
 Navigation Bar
 ------------------------------------------- */
 .btn {
     top:5em;
+}
+
+nav {
+  text-align: end;
+}
+
+nav li {
+  text-align: center;
+
+}
+
+.nav-link {
+  text-align: center;
 }
 
 /* ----------------------------------------
@@ -11,6 +39,7 @@ Main
 body {
     height: 100%;
     background-color: black;
+    box-sizing: border-box;
   }
   .no-padding {
     padding-left: 0;

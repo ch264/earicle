@@ -34,6 +34,114 @@ nav li {
 }
 
 /* ----------------------------------------
+Style
+------------------------------------------- */
+a.navbar-brand {
+  height: 100px;
+  font-size: 36px;
+}
+
+a.nav-link, .nav-suscribe {
+  font-size: 23px;
+}
+
+h1, h2, h3, h4, p {
+  text-align: center;
+}
+
+/* -------------------------------
+Style 1 - Intro
+----------------------------------- */
+h2.intro-h2 {
+  padding-top: 100px;
+  font-size: 40px;
+}
+
+h1.intro-h1 {
+  font-size: 56px;
+}
+
+h3.intro-h3 {
+  font-size: 30px;
+}
+
+p.intro-p {
+  font-size: 16px;
+}
+
+/* -------------------------------
+Style 2 - Tech
+----------------------------------- */
+h1.tech-h1 {
+  font-size: 56px;
+}
+
+p.tech-p {
+  font-size: 16px;
+}
+
+h3.tech-h3 {
+  font-size: 16px;
+}
+
+button.tech-button {
+  font-size: 17px;
+}
+
+/* -------------------------------
+Style 3 - How to use it
+----------------------------------- */
+h1.use-h1 {
+  font-size: 56px;
+}
+
+p.use-p {
+  font-size: 16px;
+}
+
+button.use-button {
+  font-size: 17px;
+}
+
+/* -------------------------------
+Style 4 - Compare
+----------------------------------- */
+h1.compare-col1-h1 {
+  font-size: 32px;
+}
+
+h2.compare-col1-h2 {
+  font-size: 25px;
+}
+
+h3.compare-col1-h3 {
+  font-size: 16px;
+}
+
+p.compare-col1-p {
+  font-size: 16px;
+}
+
+
+
+h1.compare-col2-h1 {
+  font-size: 32px;
+}
+
+h2.compare-col2-h2 {
+  font-size: 25px;
+}
+
+h3.compare-col2-h3 {
+  font-size: 16px;
+}
+
+p.compare-col2-p {
+  font-size: 16px;
+
+
+
+/* ----------------------------------------
 Main
 ------------------------------------------- */
 body {
@@ -58,9 +166,7 @@ body {
     height: 100%;
 }
 
-h1, h2, h3, h4, p {
-  text-align: center;
-}
+
 
 /* ----------------------------------------
 Footer

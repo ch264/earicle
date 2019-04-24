@@ -36,3 +36,7 @@ Project OverviewEaricle is a new assisted hearing device that is going to change
 
 ### 3.Integration
 3.1.As the business, I want the form to be integrated with MailChimp
+3.2.As the business, I want to see the new sign-ups in my MailChimp accountdashboard
+
+### 4.Confirmation
+4.1.As a user, I want confirmation from the client that I am now on the list to receivenotifications via email from the business
